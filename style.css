@@ -1,0 +1,30 @@
+body{
+    width: 300px;
+    height: 300px;
+    background-color: #8BA3BD;
+    display: flex;
+    justify-content: center;
+
+
+}
+.card{
+  display: inner-flex;
+  margin: auto 10px;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+}
+

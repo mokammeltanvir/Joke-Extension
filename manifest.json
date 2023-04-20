@@ -1,0 +1,19 @@
+{
+
+  "name": "Boring Jokes",
+  "description": "A simple extension that displays a random joke when you click on the extension icon.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+  
+}
